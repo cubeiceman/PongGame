@@ -1,4 +1,16 @@
 import pygame
+import sys
+
+vernum = pygame.version.vernum
+if vernum.major < 2:
+    print("Sorry, please update your pygame version")
+    sys.exit()
+elif vernum.major == 2:
+    if vernum.minor < 4:
+        print("Sorry, please update your pygame version")
+        sys.exit()
+
+
 import scene_class
 import base_object_class
 import position_class
