@@ -21,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="base_object_class.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PongGame.py" />
+    <Compile Include="position_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scene_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="score_counter_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sound_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vector_class.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
